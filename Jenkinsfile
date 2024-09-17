@@ -5,7 +5,8 @@ pipeline{
 		stage('Hello World')
 		{
 		  steps{
-		echo "Hello World"
+			echo "Hello World"
+			echo "New commit"
 		}
 	}
       }
